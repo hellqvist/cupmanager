@@ -1,4 +1,5 @@
 .button {
+    @extend .not-selectable-text;
     display: inline-block;
     background: $color-alternative-4;
     background-image: -webkit-linear-gradient(top, $color-alternative-4, $color-alternative-3);
