@@ -11,11 +11,13 @@ app.use(express.static(defaultAddress));
 
 var server = app.listen(process.env.PORT);
 
+// Socket.IO part
+var io = require('socket.io')(server);
 
-
-
-/*var http = require('http');
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World\n');
-}).listen(process.env.PORT, process.env.IP);*/
+io.on('connection', function (socket) {
+  console.log('New client connected!');
+	socket.on('signIn', function(data) {
+	    console.log('E-mail: ' + data.email);
+	    console.log('Password: ' + data.password);
+	});
+});
