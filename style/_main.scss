@@ -1,0 +1,26 @@
+@import './shared/_colors.scss';
+
+body {
+    background: #FDFDFD;
+	color: #333;
+	font: 12px/1.5 'segoe ui', 'lucida sans unicode', 'lucida grande', 'lucida', 'sans-serif';
+}
+
+.page-header {
+    background: $color-primary-0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    
+    .title {
+        color: $color-semitransparent;
+        display: block;
+        font-size: 4em;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0.4em;
+        -webkit-margin-start: 0.67em;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+    }
+}

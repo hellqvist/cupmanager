@@ -1,0 +1,30 @@
+{
+  "name": "cupmanager",
+  "version": "0.0.1",
+  "description": "Web application used to manage and keep track of cups",
+  "main": "server.js",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellqvist/cupmanager.git"
+  },
+  "author": "Christofer Hellqvist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellqvist/cupmanager/issues"
+  },
+  "homepage": "https://github.com/hellqvist/cupmanager#readme"
+}

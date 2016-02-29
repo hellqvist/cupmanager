@@ -1,0 +1,47 @@
+.button {
+    display: inline-block;
+    background: $color-alternative-4;
+    background-image: -webkit-linear-gradient(top, $color-alternative-4, $color-alternative-3);
+    background-image: -moz-linear-gradient(top, $color-alternative-4, $color-alternative-3);
+    background-image: -ms-linear-gradient(top, $color-alternative-4, $color-alternative-3);
+    background-image: -o-linear-gradient(top, $color-alternative-4, $color-alternative-3);
+    background-image: linear-gradient(to bottom, $color-alternative-4, $color-alternative-3);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: $color-semitransparent;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: $color-alternative-3;
+    background-image: -webkit-linear-gradient(top, $color-alternative-3, $color-alternative-4);
+    background-image: -moz-linear-gradient(top, $color-alternative-3, $color-alternative-4);
+    background-image: -ms-linear-gradient(top, $color-alternative-3, $color-alternative-4);
+    background-image: -o-linear-gradient(top, $color-alternative-3, $color-alternative-4);
+    background-image: linear-gradient(to bottom, $color-alternative-3, $color-alternative-4);
+    text-decoration: none;
+}
+
+.button-signin {
+    background: $color-alternative-3;
+    background-image: -webkit-linear-gradient(top, $color-alternative-3, $color-alternative-2);
+    background-image: -moz-linear-gradient(top, $color-alternative-3, $color-alternative-2);
+    background-image: -ms-linear-gradient(top, $color-alternative-3, $color-alternative-2);
+    background-image: -o-linear-gradient(top, $color-alternative-3, $color-alternative-2);
+    background-image: linear-gradient(to bottom, $color-alternative-3, $color-alternative-2);
+}
+
+.button-signin:hover {
+    background: $color-alternative-2;
+    background-image: -webkit-linear-gradient(top, $color-alternative-2, $color-alternative-3);
+    background-image: -moz-linear-gradient(top, $color-alternative-2, $color-alternative-3);
+    background-image: -ms-linear-gradient(top, $color-alternative-2, $color-alternative-3);
+    background-image: -o-linear-gradient(top, $color-alternative-2, $color-alternative-3);
+    background-image: linear-gradient(to bottom, $color-alternative-2, $color-alternative-3);
+}

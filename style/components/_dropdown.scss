@@ -1,0 +1,19 @@
+.dropdown {
+    position: absolute;
+    border: 1px solid #333;
+    background: $color-primary-1;
+    
+    input {
+        margin: 10px;
+        width: calc(100% - 20px);
+    }
+    
+    input[type=password] {
+        margin-top: 0;
+    }
+    
+    hr {
+        border: 0;
+        border-top: 1px solid $color-semitransparent;
+    }
+}
